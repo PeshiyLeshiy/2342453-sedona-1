@@ -724,12 +724,7 @@ input[type=text]:focus {
 
 /*Страница*/
 
-.inner-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.inner-header {
+.filter-inner {
   display: grid;
   align-content: space-evenly;
   justify-content: space-around;
