@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   src: url("fonts/ptsans-400.woff2") format("woff2");
-  font-display: swap; 
+  font-display: swap;
 }
 
 @font-face {
@@ -17,7 +17,7 @@
 html {
   height: 100%;
 }
-  
+
 .img {
   max-width: 100%;
   height: auto;
@@ -61,7 +61,7 @@ body {
 
 .main-container {
   flex-grow: 1;
-  
+
 }
 
 a.button {
@@ -137,7 +137,7 @@ ul.navigation-list {
   justify-content: space-around;
   align-items: center;
   list-style-type: none; /*отключение булетов*/
-} 
+}
 
 /*Главная, о Седоне, гостиницы*/
 
@@ -150,7 +150,7 @@ ul.navigation-list {
   text-decoration: none;
   color: #000000;
 }
- 
+
 .navigation-link:hover {
   color: #756257;
 }
@@ -202,7 +202,7 @@ ul.navigation-list {
 
 .icon-button-favorite:hover {
   stroke: #000000;
-  fill: #756257; 
+  fill: #756257;
 }
 
 .icon-button-favorite:active {
@@ -231,7 +231,7 @@ ul.navigation-list {
   height: 20px;
   padding: 2px 2px;
   border-radius: 50%;
-  
+
   background-color: #7DB54F;
   box-sizing: border-box;
 
@@ -656,7 +656,7 @@ ul.navigation-list {
 .footer-social-item-fb:hover,
 .footer-social-item-yt:hover {
   fill: #68A2CA;
-  
+
 }
 
 .footer-social-item-tw:focus,
@@ -807,18 +807,18 @@ p.filter-title {
 
 .filter-fieldset,
 .filter-property-type {
-  
+
   width: 200px;
   justify-content: space-between;
-  
+
 
 }
 
 .filter-price {
-  
+
   flex-wrap: wrap;
   width: 150px;
-  list-style-type: none; /*отключение булетов*/ 
+  list-style-type: none; /*отключение булетов*/
 }
 
 .title-price {
@@ -834,7 +834,7 @@ p.filter-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 23.29px;
-  
+
 }
 
 .filter-input {
@@ -908,7 +908,7 @@ div.catalog-sort  {
   display: flex;
   padding: 0;
   min-width: 360px;
-  
+
 }
 
 .section-catalog-title {
@@ -1045,7 +1045,7 @@ div.catalog-sort  {
 
 .card-grid-toggle:not(:last-child) {
   margin-right: 8px;
-  
+
 }
 
 .card-grid-toggle:hover {
@@ -1276,7 +1276,7 @@ div.catalog-sort  {
   margin-top: 11px;
   border-top: 1px solid #E6E6E6;
   border-bottom: 1px solid #E6E6E6;
-  
+
 }
 
 .button-download {
@@ -1292,21 +1292,21 @@ div.catalog-sort  {
   border: none;
   margin-top: 30px;
   margin-bottom: 30px;
-  
+
 }
 
 /*Пагинация*/
 
-.pagination {  
+.pagination {
   display: flex;
   flex-wrap: wrap;
   width: 1128px;
-  
+
   min-width: 370px;
   list-style-type: none; /*отключение булетов*/
-  
+
   align-items: center;
-  
+
 }
 
 .pagination-container {
@@ -1333,7 +1333,7 @@ div.catalog-sort  {
   border-radius: 4px;
   color: #ffffff;
   text-decoration: none;
-  
+
 }
 
 .pagination-link:hover {
@@ -1364,14 +1364,14 @@ div.catalog-sort  {
   display: flex;
   align-items: flex-start;
   margin-top: 34px;
-  
+
 }
 
 .pagination-select div {
   width: 160px;
   min-height: 48px;
   margin: 0;
- 
+
 }
 
 p.select-label-pagination {
@@ -1396,7 +1396,7 @@ summary.select-button-pagination {
   cursor: default;
   user-select: none;
   align-content: space-around;
-}  
+}
 
 .select-pagination {
   position: relative;
@@ -1430,7 +1430,7 @@ summary.select-button-pagination {
 
 .select[open] .select-button-pagination::after {
   transform: rotate(180deg);
-}  
+}
 
 /*Подписка каталог*/
 
@@ -1498,7 +1498,7 @@ summary.select-button-pagination {
   text-decoration: none;
   align-items: center;
   margin-top: 45px;
-} 
+}
 
 .subscribe-form-button-pagination:hover {
   background-color: #68A2CA;
