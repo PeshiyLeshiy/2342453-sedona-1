@@ -1176,7 +1176,7 @@
 .main-header {
   padding: 33px 69px 14px;
   color: #ffffff;
-  background-image: url(../img/background/main-header.jpg);
+  background-image: url("../img/background/main-header.jpg");
   background-size: cover;
 }
 
